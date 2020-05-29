@@ -12,7 +12,7 @@ This is a project to highlight samples of Briana daMota's web development work, 
 * HTML 
 * CSS
 
-## CHALLENGE INSTRUCTION SCREENSHOT: 
+## MOCK-UP FUNCTIONALITY REQUIREMENTS: 
 
 
 ## LINK TO DEPLOYED SITE:
