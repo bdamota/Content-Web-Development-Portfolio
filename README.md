@@ -12,7 +12,8 @@ This is a project to highlight samples of Briana daMota's web development work, 
 * HTML 
 * CSS
 
-## MOCK-UP FUNCTIONALITY REQUIREMENTS: 
+## MOCK-UP FUNCTIONALITY REQUIREMENTS:
+https://github.com/bdamota/Web-Development-Portfolio/blob/master/assets/images/02-advanced-css-homework-demo.gif
 
 
 ## LINK TO DEPLOYED SITE:
