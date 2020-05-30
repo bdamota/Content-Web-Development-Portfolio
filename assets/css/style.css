@@ -79,6 +79,7 @@ section {
 .hero-info h2 {
     font-style: italic;
 }
+/* Hero Style Start */
 
 /* About Me Style Start */
 .section-title {
@@ -92,19 +93,34 @@ section {
     background-color: #434446 ;
 }
 
-.examples {
-    background-color:#A8A9AB;
+.intro p, .contact p, .contact-form {
+    color: whitesmoke;
 }
 
 .section-title.about {
     color:#FF76F2;
 }
+/* About Me Style End  */
+
+/* Work Style Start */
 
 .section-title.work {
     color: #00FFFF;
 }
 
+.examples {
+    background-color:#A8A9AB;
+}
+/* Work Style End */
+
+/* Contact Style Start */
 .section-title.reach-out {
     color:#AAFFA8;
 }
- 
+/* Contact Style End */
+
+/* Apply styles to <footer> */
+footer {
+    background-color:#434446;
+    color: whitesmoke;
+}
