@@ -49,11 +49,11 @@ header nav ul li a {
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-
 /* Hero Style Start */
 .hero-info {
-    width: 50%;
-    margin: 20%;
+    margin-left: 30%;
+    margin-top: 8%;
+    margin-bottom: 50%;
     text-align: center;
     color: whitesmoke;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -62,21 +62,14 @@ header nav ul li a {
 }
 
 .hero-info h1 {
-    font-size: 65px;
+    font-size: 90px;
     font-style: italic;
 }
 
 .hero-info h2 {
-    font-size: 28px;
+    font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-    max-height: 200px;
-}
-
 /* Hero Style Start */
 
 /* About Me Style Start */
@@ -119,6 +112,12 @@ header nav ul li a {
     width: auto; 
     max-width: 600px; 
     max-height: 450px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+    max-height: 200px;
 }
 
 .section-title {
