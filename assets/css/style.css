@@ -8,7 +8,7 @@
 html {
     scroll-behavior: smooth;
   }
-  
+
 /* Apply styles to <header> */
 header {
     padding: 20px 35px;
@@ -30,7 +30,7 @@ header a {
 }
 
 header nav {
-    margin: 7px 0;
+    margin: 5px 0;
 }
 
 header nav ul {
@@ -44,11 +44,39 @@ header nav ul li a {
     padding: 10px 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    font-size: 1.55vw;
+    font-size: 1.20vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 section {
     padding: 60px;
-    color: var(--tertiary-color) ;
+}
+
+/* Hero Style Start */
+.hero {
+    background-image: url("../images/home-page-image.jpg");
+    background-size: cover;
+    background-position: 80%; 
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hero-info {
+    width: 65%;
+    text-align: center;
+    margin: 20%;
+    color: whitesmoke;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    line-height:1.2;
+    font-style: italic;
+}
+
+.hero-info h1 {
+    font-size: 65px;
+}
+
+.hero-info h2 {
+    font-style: italic;
 }
