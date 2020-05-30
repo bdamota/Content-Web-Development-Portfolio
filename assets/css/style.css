@@ -9,10 +9,13 @@ html {
     scroll-behavior: smooth;
     background-image: url("../images/home-page-image.jpg");
     background-size: cover;
-    background-position: 80%; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center center; 
     background-attachment: fixed;
-    display: flex;
-    justify-content: center;
+    background-repeat: no-repeat;
+    background-color: #A8A9AB;
   }
 
 /* Apply styles to <header> */
@@ -26,28 +29,16 @@ header {
     background-image: url("../images/home-page-image.jpg");
     background-size: cover; 
     background-attachment: fixed;
-    background-position: 80%;
+    background-position: center;
     z-index: 9999;
 }
-
 header a {
     text-decoration: none;
     color: whitesmoke;
 }
 
-header nav {
-    margin: 5px 0;
-}
-
-header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    list-style: none;
-}
-
 header nav ul li {
-    display: inline-block;
+    display: inline;
 }
 
 header nav ul li a {
@@ -58,9 +49,6 @@ header nav ul li a {
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-section {
-    padding: 60px;
-}
 
 /* Hero Style Start */
 .hero-info {
@@ -89,13 +77,10 @@ section {
     max-height: 200px;
 }
 
-.intro img {
-    max-height: 200px;
-}
 /* Hero Style Start */
 
 /* About Me Style Start */
-.intro, .examples, .contact {
+.examples, .contact {
     margin-bottom: 20px;
     padding: 50px;
     height: 650px;
@@ -108,12 +93,39 @@ section {
 
 .intro {
     background-color:#434446;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 450px;
+    width: 85%;
+    display: inline-block;
+    margin:150px 100px;
 }
+
+.intro p {
+    margin left: -20px;
+    margin-top: 20px;
+    margin-right: 70px;
+}
+
+.section-title.about p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 70px;
+    color:whitesmoke;
+}
+
+.intro img {
+    height: auto; 
+    width: auto; 
+    max-width: 600px; 
+    max-height: 450px;
+}
+
 .section-title {
     font-size: 75px;
     text-align: left;
     width: 50%;
-    vertical-align: top;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .intro p, .contact p, .contact-form {
@@ -124,6 +136,7 @@ section {
 .section-title.about {
     color:#FF76F2;
 }
+
 /* About Me Style End  */
 
 /* Work Style Start */
