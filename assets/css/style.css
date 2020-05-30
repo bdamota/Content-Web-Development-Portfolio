@@ -7,6 +7,12 @@
 
 html {
     scroll-behavior: smooth;
+    background-image: url("../images/home-page-image.jpg");
+    background-size: cover;
+    background-position: 80%; 
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
   }
 
 /* Apply styles to <header> */
@@ -17,6 +23,7 @@ header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    
     background-image: url("../images/home-page-image.jpg");
     background-size: cover; 
     background-attachment: fixed;
@@ -40,6 +47,10 @@ header nav ul {
     list-style: none;
 }
 
+header nav ul li {
+    display: inline-block;
+}
+
 header nav ul li a {
     padding: 10px 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -53,15 +64,6 @@ section {
 }
 
 /* Hero Style Start */
-.hero {
-    background-image: url("../images/home-page-image.jpg");
-    background-size: cover;
-    background-position: 80%; 
-    background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-}
-
 .hero-info {
     width: 50%;
     margin: 20%;
@@ -79,9 +81,33 @@ section {
 .hero-info h2 {
     font-style: italic;
 }
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+    max-height: 200px;
+}
+
+.intro img {
+    max-height: 200px;
+}
 /* Hero Style Start */
 
 /* About Me Style Start */
+.intro, .examples, .contact {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:whitesmoke;
+    width: 85%;
+    display: inline-block;
+    margin: 100px;
+}
+
+.intro {
+    background-color:#434446;
+}
 .section-title {
     font-size: 50px;
     padding-bottom: 20px;
@@ -89,12 +115,9 @@ section {
     width: 50%;
 }
 
-.intro, .contact {
-    background-color: #434446 ;
-}
-
 .intro p, .contact p, .contact-form {
     color: whitesmoke;
+    margin: 10;
 }
 
 .section-title.about {
@@ -103,6 +126,9 @@ section {
 /* About Me Style End  */
 
 /* Work Style Start */
+.examples {
+    background-color: ;
+}
 
 .section-title.work {
     color: #00FFFF;
@@ -114,13 +140,19 @@ section {
 /* Work Style End */
 
 /* Contact Style Start */
+
+.contact {
+    background-color:#434446 ;
+}
+
 .section-title.reach-out {
     color:#AAFFA8;
 }
+
 /* Contact Style End */
 
 /* Apply styles to <footer> */
 footer {
-    background-color:#434446;
     color: whitesmoke;
+    text-align: right;
 }
