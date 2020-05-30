@@ -3,10 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Briana's Page</title>
+    <title>Briana da Mota | Front-End Web Developer</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="content">
-    <h1>Test Page</h1>
+
+<body>
+<!-- Navigation -->
+    <header>
+        <h1>Briana da Mota</h1>
+        <h2>Front-End Developer</h2>
+        <nav>
+             <ul>
+                <li> <a href="#about-me"></a>About Me.</li>
+                <li><a href="#work"></a>Work.</li>
+                <li><a href="#say-hello"></a>Contact.</li>
+             </ul>
+        </nav>
+    </header>
+<!--"Hero" Image-->
+    <div class="hero-img"></div>
+<!--"About Me" Section-->
+    <section id="about-me" class="bio">
+        <div class="float-right">
+            <img src="" alt="Briana Profile Picture">
+        </div>
+            <h2>About Me.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores qui dolorem natus, perferendis adipisci, ullam aperiam aliquid quas facilis repellendus tenetur, earum doloribus repudiandae. Temporibus, doloribus aspernatur! Corporis, illo nobis?
+            </p>
+    </section>
+<!--"Work" Section-->
+    <section id="work" class="examples">
+        <h2>Work.</h2>
+        <div class="work-grid-wrapper">
+            <div class="work-grid-container">
+                <div class="work-grid-item grid-head hero">
+                    Run Buddy 
+                    <br>
+                    <span>HTML / CSS </span>
+                </div>
+                <div class="work-grid-item grid-head secondary">
+                    Horiseon
+                    <br>
+                    <span>Refactor</span>
+                </div>
+                <div class="work-grid-item grid-head secondary">
+                    TBD 
+                    <br>
+                    Placeholder
+                </div>
+                <div class="work-grid-item grid-head secondary">
+                    TBD
+                    <br>
+                    Placeholder
+                </div>
+            </div>
+        </div>
+    </section>
+<!--"Contact" Section-->
+    <section id="say-hello" class="contact">
+        <h2>Say Hello.</h2>
+        <div class="outro">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi incidunt atque nisi id perferendis, aspernatur exercitationem cum similique ipsa ipsam rerum. Laboriosam illo dignissimos assumenda expedita blanditiis error labore quisquam.
+        </p>
+        </div>
+        <div class="contact-form">
+            <h3>Contact Me</h3>
+            <form action="">
+                <label for="contact-name">Your Name:</label>
+                <input type="text" id="contact-name" placeholder="Your Name">
+
+                <label for="contact-message">Message:</label>
+                <textarea name="Message" id="contact-message" cols="30" rows="10"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+<!--Footer-->
+    <footer>
+        <h4>&copy Briana da Mota 2020 </h3>
+    </footer>
 </body>
 </html>
