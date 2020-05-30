@@ -98,7 +98,7 @@ section {
 .intro, .examples, .contact {
     margin-bottom: 20px;
     padding: 50px;
-    height: 750px;
+    height: 650px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:whitesmoke;
     width: 85%;
@@ -111,9 +111,9 @@ section {
 }
 .section-title {
     font-size: 75px;
-    padding-bottom: 20px;
     text-align: left;
     width: 50%;
+    vertical-align: top;
 }
 
 .intro p, .contact p, .contact-form {
@@ -150,8 +150,9 @@ section {
     color:#AAFFA8;
 }
 
-.contact-info p {
+.outro p {
     margin: 20px 0;
+    padding: 10px 20px;
     line-height: 1.5;
     font-size: 16px;
     font-style: normal;
@@ -161,11 +162,11 @@ section {
 .contact-form input, .contact-form textarea {
     border: 3px solid whitesmoke;
     display: block;
-    padding: 7px 15px;
+    padding: 4px 15px;
     font-size: 16px;
     color: #434446;
     width: 25%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     margin-top: 5px;
     border-radius: 10px;
     background-color: rgba(255,255,255, 0.75);
@@ -179,9 +180,9 @@ section {
     width: 8%;
     border:3px solid whitesmoke;
     background:#A8A9AB;
-    color: whitesmoke;
+    color: #434446;
     text-align: center;
-    padding: 15px 0;
+    padding: 5px 0;
     font-size: 16px;
     font-weight: bold;
     border-radius: 10px;
@@ -192,5 +193,5 @@ section {
 /* Apply styles to <footer> */
 footer {
     color: whitesmoke;
-    text-align: right;
+    text-align: left;
 }
