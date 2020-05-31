@@ -81,7 +81,7 @@ header nav ul li a {
     padding-left: 80px; 
     padding-top: 55px; 
     display: inline-block; 
-    margin: 150px 100px;
+    margin: 150px 160px;
 }
 
 .section-title { 
@@ -107,15 +107,16 @@ header nav ul li a {
    color: whitesmoke; 
    font-family: 'Times New Roman', Times, serif;
    font-weight: normal; 
-   font-size: 24px; 
+   font-size: 23px; 
    text-align: justify; 
    padding-top: 12px; 
-   padding-left: 0px; 
+   padding-left: 20px; 
+   padding-right: 300px;
    line-height: 1.2;
 }
 
 .insta {
-    padding-left: 200px;
+    padding-left: 220px;
     padding-top: 30px;
 }
 .insta img {
@@ -144,68 +145,34 @@ header nav ul li a {
 
 .section-title.reach-out {
     color:#AAFFA8;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
 }
 
 .outro p {
     color: whitesmoke; 
     font-family: 'Times New Roman', Times, serif;
     font-weight: normal; 
-    font-size: 24px; 
+    font-size: 23px; 
     text-align: justify; 
     padding-top: 10px; 
-    padding-left: 70px; 
+    padding-left: 76px; 
     line-height: .8;
 }
 
-.contact-form label {
-    color: whitesmoke;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-}
 
-.contact-form {
+.contact-email {
     float: right;
-    margin-right: 250px;
-    margin-top: -20%;
-}
-
-.contact-form input, .contact-form textarea {
-    border: 3px solid whitesmoke;
-    display:block;
-    padding: 4px 15px;
-    font-size: 16px;
-    color: #434446;
-    width: 150%;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    border-radius: 10px;
-    background-color: rgba(255,255,255, 0.75);
-}
-
-.contact-form input, .contact-form textarea:focus {
-    background-color: rgba(255,255,255, 0.75);
-    outline: none;
-  }
-
-.contact-form button {
-    width: 25%;
-    border:3px solid whitesmoke;
-    background:#A8A9AB;
-    color: #434446;
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: 12px;
-    font-weight: bold;
-    border-radius: 10px;
+    margin-right: 80px;
+    margin-top: -8%;
+    font-size: 40px;
+    color: #AAFFA8;
 }
 
 .icons img {
     width: 35px; 
     height: 35px;
     margin-top: 35px;
-    margin-left: 70px; 
+    margin-left: 75px; 
 }
 
 /* Contact Style End */
@@ -214,4 +181,6 @@ header nav ul li a {
 footer {
     color: whitesmoke;
     text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
 }
