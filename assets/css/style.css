@@ -7,14 +7,13 @@
     --fifth: #AAFFA8 ;
     --sixth: whitesmoke ;
     --seventh: #d891ef;
-  }
+}
 
-  * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 
 html {
     scroll-behavior: smooth;
@@ -28,7 +27,7 @@ html {
     background-repeat: no-repeat;
     background-color: var(--second);
     overflow-x: hidden;
-  }
+}
 
 /* Apply styles to <header> */
 header {
@@ -72,7 +71,7 @@ header nav ul li a {
 /* Hero Style Start */
 .hero-info {
     margin-left: 25%;
-    margin-top: 5%;
+    margin-top: 8%;
     margin-bottom: 40%;
     text-align: center;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -90,7 +89,7 @@ header nav ul li a {
     font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-/* Hero Style Start */
+/* Hero Style End */
 
 /* About Me Style Start */
 .intro, .examples, .contact { 
@@ -107,12 +106,12 @@ header nav ul li a {
     font-size: 90px; 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
- }
+}
  
  .section-title.about {
      color: var(--third); 
      text-align: left;
- }
+}
 
 .float-right img { 
    float: right; 
@@ -134,7 +133,7 @@ header nav ul li a {
 
 .intro p {
     padding-top: 12px; 
-    padding-left: 15px; 
+    padding-left: 15px;
     padding-right: 300px;
 }
 
@@ -147,7 +146,6 @@ header nav ul li a {
     width: 35px; 
     height: 35px;
 }
-
 /* About Me Style End  */
 
 /* Work Style Start */
@@ -167,7 +165,7 @@ header nav ul li a {
     grid-template-columns: 5fr repeat(4, 3fr);
     grid-gap: 20px;
     margin-left: 90px;
-    margin-top: 15px;
+    margin-top: 12px;
 }
 
 .work-grid-item {
@@ -204,7 +202,7 @@ header nav ul li a {
 
 .run-buddy h4 {
     padding-top: 125px;
-    padding-left: 10px;
+    padding-left: 2px;
     font-size: 30px;
     color: var(--sixth);
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -213,7 +211,7 @@ header nav ul li a {
 .horiseon h4, .placeholder h4 {
     font-size: 20px;
     padding-top: 25px;
-    padding-left: 10px;
+    padding-left: 2px;
     color: var(--sixth);
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -222,7 +220,7 @@ header nav ul li a {
     font-size: 14px;
     color: var(--sixth);
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    padding-left: 10px;
+    padding-left: 3px;
 }
 
 .work-grid-item.one {
@@ -301,3 +299,126 @@ footer {
     padding-right: 15px;
 }
 
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        position: relative;
+    }
+
+    header nav ul li a {
+        font-size: 2.20vw;
+        }
+
+    .float-right img { 
+        margin-left: 40px;
+        margin-right: 45px;
+    }
+
+    .contact-email {
+        margin-right: 175px;
+        font-size: 30px;
+    }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    header {
+        padding-bottom: 0;
+        position: relative;
+    }
+
+    header nav ul li a {
+    font-size: 2.20vw;
+    }
+
+    .hero-info {
+        margin-left: 5%;
+    }
+
+    .float-right img { 
+       display: none;
+    }
+
+    .intro p {
+    padding-right: 550px;
+    padding-left: 0px;
+    }
+
+    .work-grid-container {
+        width: 70%;
+        margin-left: 55px;
+    }
+
+    .contact-email {
+        margin-right: 690px;
+        font-size: 25px;
+    }
+
+    .outro p {
+        padding-left: 0px;
+    }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 575px) {
+    header {
+        padding-bottom: 0;
+        position: relative;
+    }
+
+    header nav ul li a {
+    font-size: 2.20vw;
+    }
+
+    .hero-info {
+        margin-left: 5%;
+    }
+
+    .hero-info h1 {
+        font-size: 75px;
+    }
+
+    .hero-info h2 {
+        font-size: 25px;
+    }
+
+    .section-title { 
+        font-size: 60px; 
+    
+    }
+
+    .float-right img { 
+       display: none;
+    }
+
+
+    .intro p, .outro p { 
+        font-size: 20px; 
+        padding-left: 0px;
+    }
+
+    .intro p {
+        margin-right: 145px;
+        padding-top: 20px;
+    }
+
+    .insta {
+        padding-left: 130px;
+    }
+
+    .section-title.work {
+        padding-bottom: 25px;
+    }
+
+    .work-grid-container {
+        width: 50%;
+        margin-left: 35px;
+    }
+
+    .contact-email {
+        margin-right: 775px;
+        font-size: 20px;
+        margin-top: -8%;
+    }
+}
