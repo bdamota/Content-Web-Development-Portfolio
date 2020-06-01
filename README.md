@@ -17,3 +17,4 @@ https://github.com/bdamota/Web-Development-Portfolio/blob/master/assets/images/0
 
 
 ## LINK TO DEPLOYED SITE:
+https://bdamota.github.io/Web-Development-Portfolio/
