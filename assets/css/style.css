@@ -229,21 +229,34 @@ header nav ul li a {
     background-image: url(../images/digital-marketing-meeting.jpg);
     background-repeat: no-repeat;
     background-size: 400px 200px;
-    background-position: top right;
+    background-position: top left;
 }
 
 .work-grid-item.two {
     background-image: url(../images/search-engine-optimization.jpg);
     background-repeat: no-repeat;
     background-size: 400px 200px;
-    background-position: top right;
+    background-position: center left;
 }
 
 .work-grid-item.three {
     background-image: url(../images/social-media-marketing.jpg);
     background-repeat: no-repeat;
     background-size: 400px 200px;
-    background-position: left center;
+    background-position: right right;
+}
+
+.work-grid-item.large a {
+    width: 128px;
+    border: none;
+    opacity: 0;
+}
+
+.work-grid-item.one a, .work-grid-item.two a, .work-grid-item.three a {
+    width: 110px;
+    height: 84px;
+    border: none;
+    opacity: 0;
 }
 /* Work Style End */
 
@@ -348,10 +361,6 @@ footer {
         margin-top: 45px;
     }
 
-    .work-grid-item:hover {
-        display: none;
-    }
-
     .horiseon h4, .placeholder h4 {
         font-size: 15px;
     }
@@ -419,10 +428,6 @@ footer {
     .hero-info h2 {
         font-size: 20px;
     }
-
-    .work-grid-item:hover {
-        display: none;
-    }
    
     .contact-email {
         margin-top: -10%;
@@ -462,6 +467,19 @@ footer {
 
     .work-grid-container {
         margin-left: 20px;
+    }
+
+    .work-grid-item.large a {
+        width: 97px;
+        border: none;
+        opacity: 0;
+    }
+    
+    .work-grid-item.one a, .work-grid-item.two a, .work-grid-item.three a {
+        width: 60px;
+        height: 84px;
+        border: none;
+        opacity: 0;
     }
 
     .outro p {
