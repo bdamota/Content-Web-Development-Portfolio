@@ -518,4 +518,8 @@ footer {
         font-size: 20px;
         margin-top: -7%;
     }
+
+    .outro p {
+        padding-right: 150px;
+    }
 }
