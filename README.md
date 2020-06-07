@@ -18,6 +18,8 @@ https://github.com/bdamota/Web-Development-Portfolio/blob/master/assets/images/0
 ## PRELIM DESIGN MOCK-UP:
 https://github.com/bdamota/Web-Development-Portfolio/blob/master/assets/mock-up/Web%20Dev%20Portfolio%20Mock-Up%20Prelim%20.pdf
 
+## LINK TO FINAL SCREENSHOT:
+https://github.com/bdamota/Web-Development-Portfolio/blob/master/assets/final%20screenshot%20/Screen%20Shot%202020-06-06%20at%208.04.12%20PM.png
 
 ## LINK TO DEPLOYED SITE:
 https://bdamota.github.io/Web-Development-Portfolio/
