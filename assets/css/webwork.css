@@ -17,7 +17,7 @@
 
 html {
     scroll-behavior: smooth;
-    background-image: url("../images/home-page-image.jpg");
+    background-image: url("../images/web-work-image.jpg");
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -47,7 +47,6 @@ header nav ul {
 header nav ul li {
     display: flex;
     flex-wrap: wrap;
-    padding-right: 0px;
 }
 
 header nav ul li a {
@@ -58,16 +57,12 @@ header nav ul li a {
 }
 
 .navbar {
-    padding-left: 550px;
-    padding-right: 0px;
-    margin-right: -2%;
+    display: flex-end;
 }
 
 .icon-list {
     display: flex;
     padding-left: 10px;
-    margin-right: -3%;
-    padding-right: 0px;
 }
 
 .icons {
@@ -81,97 +76,132 @@ header nav ul li a {
 
 /* Hero Style Start */
 .hero-info {
-    text-align: left;
+    display: inline-block;
     font-size: 55px;
+    line-height: .9;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: var(--first);
-    margin-left: 5%;
-    margin-top: 3%;
+    margin-left: 11%;
+    margin-top: 0%;
+}
+
+.name {
+    padding-left: 27px;
 }
 
 /* Hero Style End */
 
-/* About Me Style Start */
-.intro, .examples, .contact { 
-    background-color:var(--second);
-    height: 550px; 
-    width: 100%; 
-    padding-left: 80px; 
-    padding-top: 55px; 
-    display: inline-block; 
-    margin-bottom: 150px;
+/* Work Style Start */
+.section-title.work {
+    color: var(--fourth);
 }
 
-.section-title { 
-    font-size: 90px; 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
- 
- .section-title.about {
-     color: var(--third); 
-     text-align: left;
+.work-grid-wrapper {
+    display: flex;
 }
 
-.float-right img { 
-   float: right; 
-   margin-left: 85px;
-   width: 450px; 
-   height: 450px;
-   padding-top: 15px;
-   padding-bottom: 25px;
+.work-grid-container {
+    width: 100%;
+    display: grid;
+    grid-auto-flow: column dense;
+    /* repeat(iterator, size) */
+    grid-template-columns: 5fr repeat(4, 3fr);
+    grid-gap: 20px;
+    margin-left: 90px;
+    margin-top: 12px;
 }
 
-.intro p, .outro p { 
-    color:var(--first); 
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: normal;
-    font-size: 23px; 
-    text-align: justify; 
-    line-height: 1.2;
+.work-grid-item {
+    display: flex;
+    border: 3px solid var(--sixth);
+    border-radius: 3px;
 }
 
-.intro p {
-    padding-top: 12px; 
-    padding-left: 15px;
-    padding-right: 300px;
-}
-/* About Me Style End  */
-
-
-/* Contact Style Start */
-.section-title.reach-out {
-    color:var(--fifth);
-    padding-bottom: 50px;
+.work-grid-item span {
+    background-color: var(--fourth);
 }
 
-.outro p {
-    padding-top: 2px; 
-    padding-left: 15px; 
-    margin-right: 60%;
+.work-grid-item:hover {
+    opacity: .5;
 }
 
-.contact-email {
-    float: right;
-    margin-right: 75px;
-    margin-top: -9%;
-    font-size: 40px;
-    font-weight: normal;
-    font-family: 'Times New Roman', Times, serif;
-    color: var(--fifth);
+.work-grid-item.large {
+    grid-column: 1 / span 2;
+    grid-row: span 9;
+    background-image: url(../images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 450px 315px;
+}
+
+.work-grid-item.one, .work-grid-item.two, .work-grid-item.three {
+    grid-column: 3 / span 2;
+    grid-row: span 3;
+    height: 90px;
+}
+
+.run-buddy, .horiseon, .placeholder {
+    background-color:gray;
+}
+
+.run-buddy h4 {
+    padding-top: 125px;
+    padding-left: 2px;
+    font-size: 30px;
+    color: var(--sixth);
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-/* Contact Style End */
-
-/* Apply styles to <footer> */
-footer {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: lighter;
-    margin-top: 37%;
-    color: whitesmoke;
-    text-align: right;
+.horiseon h4, .placeholder h4 {
+    font-size: 20px;
+    padding-top: 25px;
+    padding-left: 2px;
+    color: var(--sixth);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
+.horiseon p, .run-buddy p, .placeholder p {
+    font-size: 14px;
+    color: var(--sixth);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding-left: 3px;
+}
+
+.work-grid-item.one {
+    background-image: url(../images/digital-marketing-meeting.jpg);
+    background-repeat: no-repeat;
+    background-size: 400px 200px;
+    background-position: top left;
+}
+
+.work-grid-item.two {
+    background-image: url(../images/search-engine-optimization.jpg);
+    background-repeat: no-repeat;
+    background-size: 400px 200px;
+    background-position: center left;
+}
+
+.work-grid-item.three {
+    background-image: url(../images/social-media-marketing.jpg);
+    background-repeat: no-repeat;
+    background-size: 400px 200px;
+    background-position: right center;
+}
+
+.work-grid-item.large a {
+    width:300px;
+    border: none;
+    opacity: 0;
+}
+
+.work-grid-item.one a, .work-grid-item.two a, .work-grid-item.three a {
+    width: 250px;
+    height: 84px;
+    border: none;
+    opacity: 0;
+}
+/* Work Style End */
+
+
 
 
 
@@ -184,14 +214,7 @@ footer {
 
     header nav ul li a {
         font-size: 2.20vw;
-        }
-
-
-    .contact-email {
-        float: right;
-        margin-right: 145px;
-        font-size: 30px;
-}
+    }
 }
 
 
@@ -204,18 +227,8 @@ footer {
 
     header nav ul li a {
         font-size: 2.20vw;
-        }
-
-    .float-right img { 
-        margin-left: 40px;
-        margin-right: 45px;
     }
-
-    .contact-email {
-        margin-right: 175px;
-        font-size: 30px;
-    }
-}
+ }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
@@ -228,32 +241,6 @@ footer {
     font-size: 2.20vw;
     }
 
-    .hero-info {
-        margin-left: 5%;
-    }
-
-    .float-right img { 
-       display: none;
-    }
-
-    .intro p {
-    padding-right: 550px;
-    padding-left: 0px;
-    }
-
-    .work-grid-container {
-        width: 70%;
-        margin-left: 55px;
-    }
-
-    .contact-email {
-        margin-right: 690px;
-        font-size: 25px;
-    }
-
-    .outro p {
-        padding-left: 0px;
-    }
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
@@ -268,55 +255,9 @@ footer {
     }
 
     .hero-info {
-        margin-left: 5%;
+        font-size: 30pt;
     }
 
-    .hero-info h1 {
-        font-size: 75px;
-    }
-
-    .hero-info h2 {
-        font-size: 25px;
-    }
-
-    .section-title { 
-        font-size: 60px; 
-    
-    }
-
-    .float-right img { 
-       display: none;
-    }
-
-
-    .intro p, .outro p { 
-        font-size: 20px; 
-        padding-left: 0px;
-    }
-
-    .intro p {
-        margin-right: 145px;
-        padding-top: 20px;
-    }
-
-    .insta {
-        padding-left: 130px;
-    }
-
-    .section-title.work {
-        padding-bottom: 25px;
-    }
-
-    .work-grid-container {
-        width: 50%;
-        margin-left: 35px;
-    }
-
-    .contact-email {
-        margin-right: 775px;
-        font-size: 20px;
-        margin-top: -8%;
-    }
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
@@ -327,73 +268,10 @@ footer {
     }
 
     header nav ul li a {
-    font-size: 3.20vw;
+    font-size: 2.20vw;
     }
 
     .hero-info {
-        margin-left: 5%;
-    }
-
-    .hero-info h1 {
-        font-size: 55px;
-    }
-
-    .hero-info h2 {
-        font-size: 18px;
-    }
-
-    .section-title { 
-        font-size: 40px; 
-    
-    }
-
-    .float-right img { 
-       display: none;
-    }
-
-
-    .intro p, .outro p { 
-        font-size: 15px; 
-        padding-left: 0px;
-    }
-
-    .intro p {
-        margin-right: 260px;
-        padding-top: 30px;
-    }
-
-    .insta {
-        padding-left: 105px;
-    }
-
-    .section-title.work {
-        padding-bottom: 25px;
-    }
-
-    .work-grid-container {
-        width: 35%;
-        margin-left: 0px;
-    }
-
-    .run-buddy h4 {
-        font-size: 18px;
-    }
-    
-    .horiseon h4, .placeholder h4 {
-        font-size: 12px;
-    }
-    
-    .horiseon p, .run-buddy p, .placeholder p {
-        font-size: 10px;
-    }
-
-    .contact-email {
-        margin-right: 775px;
-        font-size: 20px;
-        margin-top: -7%;
-    }
-
-    .outro p {
-        padding-right: 150px;
+        font-size: 30pt;
     }
 }
