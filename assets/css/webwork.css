@@ -34,14 +34,47 @@ header {
 
 /* Work Style Start*/
 .carousel-inner {
-    margin-top: 6%;
-    margin-bottom: 6%;
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
 
 .d-block {
     height: 770px;
 }
 
+.carousel-caption {
+    display: flex;
+    background-color: gray;
+    opacity: .95;
+    width: 500px;
+    height: 75px;
+    margin-left: 13%;
+    margin-bottom: 29%;
+    border-radius: 20%;
+    border-style: outset;
+}
+
+.techs {
+    padding-top: 5px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-decoration: none;
+}
+
+.carousel-control-next-icon {
+    background-color: darkgray;
+    height: 50px;
+    width: 30px;
+}
+
+.carousel-control-next-icon:hover {
+    background-color:gray;
+}
+
+.link {
+    margin-top: 0%;
+}
 
 /* End Nav Start*/
 .endbar {
