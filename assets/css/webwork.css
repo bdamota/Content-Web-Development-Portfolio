@@ -55,7 +55,7 @@ header {
 }
 
 .techs {
-    padding-top: 5px;
+    padding-top: 6px;
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
@@ -72,9 +72,6 @@ header {
     background-color:gray;
 }
 
-.link {
-    margin-top: 0%;
-}
 
 /* End Nav Start*/
 .endbar {
