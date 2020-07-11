@@ -12,6 +12,34 @@ header {
     margin-top: -1%;
 }
 
+.dropdown {
+    position: relative;
+    display: inline;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left: 58%;
+    right: 40%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 17px;
+    transform: translateX(-50%);
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+    text-decoration: none;
+}
+
 /* Hero Style Start */
 .hero-info {
     font-size: 50px;
@@ -44,13 +72,13 @@ header {
 }
 .grid-container {
     display: flex;
-    margin-left: 3%;
+    margin-left: 3.2%;
 }
 
 .image {
     max-width: 90%;
     height:auto;
-    padding-bottom: 40px;
+    padding-bottom: 38px;
 }
 
 
