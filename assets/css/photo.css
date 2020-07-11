@@ -34,8 +34,23 @@ header {
 
 /* Photo Style Start*/
 
-.card {
+.photo-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: right;
+    font-size: 18pt;
+    margin-right: 4%;
+    margin-bottom: -1%;
+    margin-top: 3%;
+}
+.grid-container {
     display: flex;
+    margin-left: 3%;
+}
+
+.image {
+    max-width: 90%;
+    height:auto;
+    padding-bottom: 40px;
 }
 
 
