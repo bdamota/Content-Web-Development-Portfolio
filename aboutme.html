@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./assets/css/style.css">
         <link rel="stylesheet" href="./assets/css/about.css">
@@ -17,26 +18,26 @@
                     <div class="dropdown">
                         <a href="content.html">CONTENT </a>
                         <div class="dropdown-content">
-                            <a href="#digital-branded">digital+branded</a>
-                            <a href="#broadcast">broadcast</a><br>
-                            <a href="#clients">clients</a>
+                            <a href="content.html#digital-branded">digital+branded</a>
+                            <a href="content.html#broadcast">broadcast</a><br>
+                            <a href="content.html#clients">clients</a>
                         </div>
                 </li>
                 <li>
                     <div class="dropdown">
                         <a href="webwork.html">+WEB </a>
                         <div class="dropdown-content">
-                            <a href="#web-dev">development</a><br>
-                            <a href="#ui-ux">ui/ux</a>
+                            <a href="webwork.html#web-dev">development</a><br>
+                            <a href="webwork.html#ui-ux">ui/ux</a>
                         </div>
                 </li>
                 <li>
                     <div class="dropdown">
                         <a href="photography.html">+PHOTOGRAPHY </a>
                         <div class="dropdown-content">
-                            <a href="#travel-landscape">travel+landscape</a>
-                            <a href="#architecture">architecture</a>
-                            <a href="#business">business</a>
+                            <a href="travel.html">travel+landscape</a>
+                            <a href="architecture.html">architecture</a>
+                            <a href="business.html">business</a>
                         </div>
                 </li>
                 <li><a  href="aboutme.html">ABOUT </a></li>
@@ -49,18 +50,32 @@
             </ul>    
         </nav>
     </header>
-    <div class="hero">
-        <img class="hero-info" src="./assets/images/Briana daMota Logo.png" alt="">
-    </div>
-<!--"About Me" Section-->
-<section id="about-me" class="intro">
-    <div class="float-right">
-        <img src="./assets/images/about-me-img.jpg" alt="Briana Profile Picture">
-    </div>
-        <h2 class="section-title about">About Me.</h2>
-        <p>I’m a front-end developer with a passion for design. I leverage 10 years of experience in television/digital content development and brand marketing to create visually compelling websites that are responsive, intuitive, and strive to increase user engagement.</p>
-        <br>
-        <p> When I’m not working, you can find me taking photos, cooking, gardening, walking my dog, listening to great music, and traveling.</p>
-</section>
-</body>
+        <!--"Hero" Section -->
+        <main>
+            <div class="hero">
+                <img class="hero-info" src="./assets/images/Briana daMota Logo.png" alt="">
+            </div>
+        <!--"About Me" Section-->
+                <h2 class="section-title">about me</h2>
+                <div class="intro">
+                    <p class="about">My decade-long career has been spent at the intersection of brands and entertainment. I’ve created and produced everything from a social media campaign, to a broadcast commercial, to a television show. I've worked with Fortune 500 companies across the lifecycle of the creative development process for both general and multicultural markets. My passion is to create meaningful and authentic content for a variety of audiences and platforms.
+                        <br> <br> I have extensive experience working cross-functionally with multiple stakeholders internally and with external clients. I'm comfortable leading a team through complex projects with tight deadlines to produce quality work. I pride myself on working effectively and cost-efficiently, while maintaining clear and open communication.
+                        <br> <br> I'm currently enrolled in an intensive Full-Stack Coding Bootcamp at UCLA Extension and a UX Design program through Udacity, with the goal of gaining the skills for polished, fully responsive, interactive and accessible Front End Web Development.
+                        <br> <br> When I'm not working or trying to learn something new, I most recently can be found in my garden, cooking, or walking my dog around the neighborhood. 
+                    </p>
+                    <img class="photo" src="./assets/images/about-me-img.jpg" alt="Briana Profile Picture">
+                </div>
+        <!--Bottm Nav-->
+        <ul class="endbar about-end">
+            <li><a class="end-search" href="content.html">CONTENT | </a></li>
+            <li><a class="end-search" href="webwork.html"> WEB | </a></li>
+            <li><a class="end-search" href="photography.html">PHOTOGRAPHY  |</a></li>
+            <li><a class="end-search" href="aboutme.html">ABOUT  |</a></li>
+            <li><a class="end-search" href="contact.html">CONTACT </a></li>
+        </ul> 
+        </main>
+        <footer>
+        <h6 class="copyright">&copy;2020 daMota</h6>
+        </footer>    
+    </body>
 </html>
