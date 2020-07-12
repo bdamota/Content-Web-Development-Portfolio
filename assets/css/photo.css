@@ -83,6 +83,11 @@ header {
     margin-top: 5.5%;
 }
 
+.carousel-control-next-icon {
+    color: gray;
+    width: 20px;
+}
+
 
 
 /* End Nav Start*/
