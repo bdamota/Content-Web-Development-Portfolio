@@ -51,8 +51,8 @@ header nav ul li a {
 }
 
 .dropdown {
-    position: relative;
-    display: flex;
+    padding-top: 3px;
+    display: inline;
 }
   
 .dropdown-content {

@@ -12,10 +12,6 @@ header {
     margin-top: -1%;
 }
 
-.dropdown {
-    position: relative;
-    display: inline;
-}
   
 .dropdown-content {
     display: none;
@@ -79,6 +75,15 @@ header {
     padding-bottom: 38px;
 }
 
+.carousel-item {
+    height: 700px;
+}
+
+.carousel {
+    margin-top: 5.5%;
+}
+
+
 
 /* End Nav Start*/
 .endbar {
@@ -86,6 +91,10 @@ header {
     list-style: none;
     align-items: center;
     justify-content: center;
+}
+
+.photo-end {
+    margin-top: 3%;
 }
 
 .end-search {
