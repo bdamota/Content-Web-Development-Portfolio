@@ -108,33 +108,6 @@ header nav ul li a {
 /* Hero Style End */
 
 
-/* Contact Style Start */
-.section-title.reach-out {
-    color:var(--fifth);
-    padding-bottom: 50px;
-}
-
-.outro p {
-    padding-top: 2px; 
-    padding-left: 15px; 
-    margin-right: 60%;
-}
-
-.contact-email {
-    float: right;
-    margin-right: 75px;
-    margin-top: -9%;
-    font-size: 40px;
-    font-weight: normal;
-    font-family: 'Times New Roman', Times, serif;
-    color: var(--fifth);
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-/* Contact Style End */
-
-
-
 
 /* MEDIA QUERY FOR SMALLER IPAD PRO SCREENS AND SMALLER */
 @media screen and (max-width: 1024px) {
