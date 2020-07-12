@@ -66,13 +66,18 @@ header {
 
 .grid-container {
     display: flex;
-    margin-left: 3.2%;
+    margin-left: 1%;
 }
 
 .image {
-    max-width: 90%;
+    max-width: 97%;
     height:auto;
-    padding-bottom: 38px;
+    padding-bottom: 15px;
+
+}
+
+.row {
+    display: flex;
 }
 
 .carousel-item {
@@ -100,6 +105,10 @@ header {
 
 .photo-end {
     margin-top: 3%;
+}
+
+.travel-end {
+    margin-top: 1.5%;
 }
 
 .end-search {
