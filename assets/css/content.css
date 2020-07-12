@@ -68,6 +68,10 @@ header {
     margin-top: 3%;
 }
 
+.mr-4 {
+    text-align: left;
+}
+
 .grid-container {
     display: flex;
     margin-left: 2%;
