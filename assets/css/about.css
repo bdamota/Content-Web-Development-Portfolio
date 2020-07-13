@@ -1,4 +1,3 @@
-
 html {
     scroll-behavior: smooth;
     background-image: url("");
@@ -62,11 +61,12 @@ header {
 
 .section-title {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: right;
+    text-align: left;
     font-size: 16pt;
     margin-right: 4%;
     margin-bottom: -.5%;
     margin-top: 3%;
+    margin-left: 10%;
 }
 
 .intro {
@@ -81,9 +81,9 @@ header {
 }
 
 .about {
-    margin-left: 4%;
+    margin-left: 10%;
     margin-right: 4%;
-    margin-top: 5%;
+    margin-top: 0.5%;
     text-align: justify;
     font-family: 'Montserrat', sans-serif;
 }
