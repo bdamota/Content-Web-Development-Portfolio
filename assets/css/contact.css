@@ -1,88 +1,51 @@
-/* Apply to all <elements> */
-:root {
-    --first: black;
-    --second: #A8A9AB;
-    --third: #FF76F2;
-    --fourth:#00FFFF ;
-    --fifth: #AAFFA8 ;
-    --sixth: whitesmoke ;
-    --seventh: #d891ef;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 html {
     scroll-behavior: smooth;
     background-image: url("");
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-position: center center; 
-    background-attachment: fixed;
-    background-repeat: no-repeat;
     overflow-x: hidden;
 }
+a:hover {
+    color: black;
+}
 
-/* Apply styles to <header> */
 header {
-    padding: 30px;
-    display: flex;
-    flex-wrap: wrap; 
+    margin-top: -1%;
 }
 
-header a {
-    text-decoration: none;
-    color: var(--first);
+.dropdown {
+    position: relative;
+    display: inline;
 }
-
-header nav ul {
-    display: flex;
-}
-
-header nav ul li {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-header nav ul li a {
-    padding-top: 10px;
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.10vw;
-    padding-left: 15px;
+    font-size: small;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left: 58%;
+    right: 40%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 17px;
+    transform: translateX(-50%);
 }
-
-.navbar {
-    display: flex-end;
-}
-
-.icon-list {
-    display: flex;
-    padding-left: 10px;
-}
-
-.icons {
-    padding-left: 6px;
-}
-
-.icons img {
-    width: 18px; 
-    height: 18px;
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+    text-decoration: none;
 }
 
 /* Hero Style Start */
 .hero-info {
-    display: inline-block;
-    font-size: 55px;
-    line-height: .9;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: var(--first);
-    margin-left: 6;
-    margin-top: 0%;
+    max-width: 16.5%;
+    height:auto;
+    margin-left: 4%;
+    margin-top: -2.5%;
 }
 
 .name {
@@ -91,78 +54,71 @@ header nav ul li a {
 
 /* Hero Style End */
 
-/* About Me Style Start */
-.intro, .examples, .contact { 
-    background-color:var(--second);
-    height: 550px; 
-    width: 100%; 
-    padding-left: 80px; 
-    padding-top: 55px; 
-    display: inline-block; 
-    margin-bottom: 150px;
-}
-
-.section-title { 
-    font-size: 90px; 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
- 
- .section-title.about {
-     color: var(--third); 
-     text-align: left;
-}
-
-.float-right img { 
-   float: right; 
-   margin-left: 85px;
-   width: 450px; 
-   height: 450px;
-   padding-top: 15px;
-   padding-bottom: 25px;
-}
-
-.intro p, .outro p { 
-    color:var(--first); 
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: normal;
-    font-size: 23px; 
-    text-align: justify; 
-    line-height: 1.2;
-}
-
-.intro p {
-    padding-top: 12px; 
-    padding-left: 15px;
-    padding-right: 300px;
-}
-/* About Me Style End  */
-
 
 /* Contact Style Start */
-.section-title.reach-out {
-    color:var(--fifth);
-    padding-bottom: 50px;
+.section-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: 16pt;
+    margin-right: 4%;
+    margin-bottom: -.5%;
+    margin-top: 3%;
 }
 
-.outro p {
-    padding-top: 2px; 
-    padding-left: 15px; 
-    margin-right: 60%;
+.outro {
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    margin-left: 10%;
 }
 
-.contact-email {
-    float: right;
-    margin-right: 75px;
-    margin-top: -9%;
-    font-size: 40px;
-    font-weight: normal;
-    font-family: 'Times New Roman', Times, serif;
-    color: var(--fifth);
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+.icon-list {
+    display: flex;
+    list-style-type:none;
+}
+
+
+.icons img {
+    width: 16px; 
+    height: 16px;
 }
 
 /* Contact Style End */
+
+/* End Nav Start*/
+.endbar {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-end {
+    margin-top: 4%;
+}
+
+.end-search {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.10vw;
+    padding-left: 5px;
+}
+
+.end-search:hover {
+    color: black;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright {
+    font-size: 8pt;
+}
 
 
 

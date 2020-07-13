@@ -48,9 +48,6 @@ header {
     margin-top: -2.5%;
 }
 
-
-
-
 .name {
     padding-left: 27px;
 }
@@ -85,8 +82,9 @@ header {
 .about {
     margin-left: 4%;
     margin-right: 4%;
-    margin-top: 3%;
+    margin-top: 2.5%;
     text-align: justify;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* End Nav Start*/
