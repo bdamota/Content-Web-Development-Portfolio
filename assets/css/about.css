@@ -77,12 +77,13 @@ header {
 .photo {
    width:  40%;
    margin-right: 4%;
+   border-style: outset;
 }
 
 .about {
     margin-left: 4%;
     margin-right: 4%;
-    margin-top: 2.5%;
+    margin-top: 5%;
     text-align: justify;
     font-family: 'Montserrat', sans-serif;
 }
@@ -96,7 +97,7 @@ header {
 }
 
 .about-end {
-    margin-top: 3%;
+    margin-top: 5%;
 }
 
 .end-search {

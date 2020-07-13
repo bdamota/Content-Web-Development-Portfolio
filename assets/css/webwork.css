@@ -79,55 +79,18 @@ header {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     padding-top: 5px;
+    font-weight: bold;
 }
 
 .card-link {
     margin-left: 32%;
     color: black;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
-#ui-ux {
-    margin-bottom: 4%;
-}
-
-.placeholderA {
-    max-width: 40%;
-    height:auto;
-    float: left;
-    padding-bottom: 38px;
-}
-
-.number-one {
-    text-align: center;
-}
-
-.placeholderA, .text-1 {
-    text-align: center;
-}
-
-.btn-1 {
-    background-color: lightgray;
-    margin-left: -5%;
-}
-
-.placeholderB {
-    max-width: 40%;
-    height:auto;
-    float: right;
-    padding-bottom: 38px;
-}
-
-.number-two {
-    text-align: center;
-}
-
-.placeholderB, .text-2 {
-    text-align: right;
-}
-
-.btn-2 {
-    background-color: lightgray;
+.card-link:hover {
+   color: darkgray;
 }
 
 
@@ -139,6 +102,10 @@ header {
     align-items: center;
     justify-content: center;
     margin-top: 3%;
+}
+
+.photo-end {
+    margin-top: 5%;
 }
 
 .end-search {
