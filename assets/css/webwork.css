@@ -67,35 +67,29 @@ header {
     margin-top: 3%;
 }
 
+
+
 .kickback {
     width: 90%;
     margin-left: 5%;
     height: 600px;  
 }
 
-.run, .pass {
-    display: inline-flex;
-    width: 45%;
+.tech {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 5px;
 }
 
-.pass {
-    height: 300px;
-    margin-left: 5%;
-}
-
-.run {
-    height: 300px;
-    margin-left: -.4%;
-}
-
-.btn-info {
-    margin-left: -30%;
+.card-link {
+    margin-left: 32%;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #ui-ux {
     margin-bottom: 4%;
 }
-
 
 .placeholderA {
     max-width: 40%;
@@ -109,11 +103,12 @@ header {
 }
 
 .placeholderA, .text-1 {
-    text-align: left;
+    text-align: center;
 }
 
 .btn-1 {
     background-color: lightgray;
+    margin-left: -5%;
 }
 
 .placeholderB {
