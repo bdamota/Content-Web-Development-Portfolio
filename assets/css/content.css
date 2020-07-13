@@ -68,8 +68,13 @@ header {
     margin-top: 3%;
 }
 
+.img-fluid:hover {
+    opacity: .5;
+}
+
 .mr-4 {
     text-align: left;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .grid-container {
@@ -83,12 +88,20 @@ header {
     padding-bottom: 38px;
 }
 
+.img {
+    width: 70%;
+}
+
 /* End Nav Start*/
 .endbar {
     display: flex;
     list-style: none;
     align-items: center;
     justify-content: center;
+}
+
+.photo-end {
+    margin-top: 4%;
 }
 
 .end-search {
