@@ -74,6 +74,12 @@ header {
     padding-left: 5px;
 }
 
+.info {
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+}
+
 .tech {
     text-align: left;
     font-family: 'Montserrat', sans-serif;
