@@ -80,7 +80,7 @@ html {
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
      .carousel-end {
-        margin-top: -40%;
+        margin-top: -85%;
     }
 
     .end-search {

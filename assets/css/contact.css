@@ -34,7 +34,7 @@ html {
     .outro {
         margin-right: 10%;
         margin-left: 10%;
-        font-size: 11pt;
+        font-size: 13pt;
     }
 
     .end-search {
@@ -54,7 +54,7 @@ html {
     .outro {
         margin-right: 10%;
         margin-left: 10%;
-        font-size: 11pt;
+        font-size: 15pt;
     }
 
 
@@ -79,7 +79,7 @@ html {
     .outro {
         margin-right: 10%;
         margin-left: 10%;
-        font-size: 11pt;
+        font-size: 15pt;
     }
 
 
@@ -104,6 +104,10 @@ html {
     .end-search {
         font-size: 6pt; 
     } 
+
+    .contact-end {
+        margin-top: -2%;
+    }
 
     .copyright {
         font-size: 6pt;
