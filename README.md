@@ -8,8 +8,4 @@ This is a project to highlight samples of Briana daMota's content development an
 * CSS
 * JavaScript
 
-## SCREENSHOT:
-
-
-## LINK TO DEPLOYED SITE:
 
