@@ -1,4 +1,4 @@
-# WEB DEVELOPMENT PORTFOLIO 
+# PROFESSIONAL PORTFOLIO 
 
 ## PROJECT DESCRIPTION:
 This is a project to highlight samples of Briana daMota's broadcast, digital and branded content development and production, web development, and photogprahy work. 
@@ -12,6 +12,6 @@ This is a project to highlight samples of Briana daMota's broadcast, digital and
 ![image](https://github.com/bdamota/Content-Web-Development-Portfolio/blob/master/assets/images/Screen%20Shot%202020-07-19%20at%2012.01.56%20AM.png)
 
 ## SITE LINK:
- https://bdamota.github.io/Content-Web-Development-Portfolio/
+https://bdamota.github.io/Portfolio/
 
 
