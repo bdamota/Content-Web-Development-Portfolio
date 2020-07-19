@@ -335,8 +335,12 @@ footer {
     } 
      
     .text-home {
-     font-size: 12pt;
+     font-size: 6pt;
     }
+
+    a {
+        font-size: 6pt;
+    } 
 
     .icons img {
         display: none;
@@ -353,11 +357,11 @@ footer {
     }
 
    .end-search {
-    font-size: 2.20vw;
+    font-size:  6pt;
    }
 
    .copyright {
-    font-size: 2.20vw;
+    font-size: 6pt;
 }
 
 }
