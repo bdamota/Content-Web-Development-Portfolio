@@ -12,4 +12,4 @@ This is a project to highlight samples of Briana daMota's content development an
 
 
 ## LINK TO DEPLOYED SITE:
-https://bdamota.github.io/Web-Development-Portfolio/
+https://bdamota.github.io/Content-Web-Development-Portfolio/
