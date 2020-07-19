@@ -40,6 +40,7 @@ html {
 @media screen and (max-width: 1024px) { 
     .about {
         margin-top: 5.5%;
+        font-size: 12pt;
     }   
 
     .end-search {
@@ -58,6 +59,7 @@ html {
 
     .about {
         margin-top: 5.5%;
+        font-size: 15pt;
     }
 
 
@@ -85,6 +87,10 @@ html {
        margin-bottom: 2%;
     }
 
+    .about {
+        font-size: 15pt;
+    }
+
 
     .end-search {
         font-size: 12pt; 
@@ -104,6 +110,10 @@ html {
 
     .copyright {
         font-size: 6pt;
+    }
+
+    .about {
+        font-size: 11pt;
     }
 }
 
