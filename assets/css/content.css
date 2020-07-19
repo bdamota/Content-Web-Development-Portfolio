@@ -66,8 +66,12 @@ html {
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 575px) {
     .end-search {
-        font-size: 8pt; 
-    }   
+        font-size: 6pt; 
+    } 
+
+    .copyright {
+        font-size: 6pt;
+    }  
 }
 
 
