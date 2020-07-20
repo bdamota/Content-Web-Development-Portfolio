@@ -84,6 +84,10 @@ html {
         
     }
 
+    .icons img {
+        display: none;
+    }
+
     .section-title {
         margin-top: 10%;
         margin-left: 11%;
