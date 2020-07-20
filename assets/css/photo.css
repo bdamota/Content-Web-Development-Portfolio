@@ -53,6 +53,9 @@ html {
         
     }
 
+   .about {
+       font-size: 10pt;
+   }
 
     .end-search {
         font-size: 10pt; 
@@ -80,7 +83,7 @@ html {
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
      .carousel-end {
-        margin-top: -85%;
+        margin-top: -45%;
     }
 
     .end-search {

@@ -100,13 +100,19 @@ html {
         margin-left: 10%;
         font-size: 11pt;
     }
+
+    .icons img {
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+    }
     
     .end-search {
         font-size: 6pt; 
     } 
 
     .contact-end {
-        margin-top: -2%;
+        margin-top: 4%;
     }
 
     .copyright {
@@ -122,6 +128,10 @@ html {
         height:auto;
         margin-left: 4%;
         
+    }
+
+    .icons img {
+        display: inline-block;
     }
 
     .outro {
