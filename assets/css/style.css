@@ -117,6 +117,7 @@ a:hover {
 .section-title {
     font-family:  'Montserrat', sans-serif;
     text-align: right;
+    font-weight: bold;
     font-size: 16pt;
     margin-right: 4%;
     margin-bottom: -1%;
