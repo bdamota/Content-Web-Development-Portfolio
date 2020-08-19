@@ -72,6 +72,24 @@
     $("#video12").attr("src", videoSrc12);
   })
 
+  var videoSrc12 = $("#modal13 video").attr("src");
+  $("#modal13").on("hide.bs.modal", function(e) {
+    // stop video
+    $("#video13").attr("src", videoSrc12);
+  })
+
+  var videoSrc12 = $("#modal14 video").attr("src");
+  $("#modal14").on("hide.bs.modal", function(e) {
+    // stop video
+    $("#video14").attr("src", videoSrc12);
+  })
+
+  var videoSrc12 = $("#modal15 video").attr("src");
+  $("#modal15").on("hide.bs.modal", function(e) {
+    // stop video
+    $("#video15").attr("src", videoSrc12);
+  })
+
 
 
 
