@@ -87,6 +87,10 @@ html {
     .end-search {
         font-size: 12pt; 
     }
+
+    .card {
+        height: 900px;
+    }
 }
 
 
@@ -108,6 +112,14 @@ html {
     .end-search {
         font-size: 10pt; 
     }
+
+    .card {
+        height: 1100px;
+    }
+
+    .three {
+        height: 900px;
+    }
     
  }
 
@@ -126,7 +138,11 @@ html {
     }
 
     .card {
-        height: 1200px;
+        height: 1700px;
+    }
+
+    .three {
+        height: 1300px;
     }
 
     .info {
@@ -136,7 +152,7 @@ html {
 
     .kickback {  
         padding-left: 15px;
-        height: 300px;  
+        height: 100px;  
     }
 
     .end-search {
@@ -152,13 +168,13 @@ html {
         margin-left: 10%;
     }
 
-    .card {
-        height: 1300px;
-    }
-
     .kickback {  
         padding-left: 5px;
-        height: 800px;  
+        height: 300px;  
+    }
+
+    .card {
+        height: 800px;
     }
    
     .type {
@@ -180,6 +196,23 @@ html {
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 414px) {
+    .kickback {  
+        padding-left: 5px;
+        height: 250px;  
+    }
+
+    .card {
+        height: 850px;
+    }
+
+    .three {
+        height: 750px;
+    }
+  
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 375px) {
   
     .type {
@@ -189,7 +222,15 @@ html {
 
     .kickback {  
         padding-left: 5px;
-        height: 600px;  
+        height: 200px;  
+    }
+
+    .card {
+        height: 875px;
+    }
+
+    .three{
+        height: 775px;
     }
 
 
