@@ -90,7 +90,7 @@
     $("#video15").attr("src", videoSrc12);
   })
 
-  ScrollReveal().reveal('.image');
+
 
 
   
