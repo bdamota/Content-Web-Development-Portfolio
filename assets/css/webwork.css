@@ -14,7 +14,10 @@ html {
 .type {
     font-family: 'Montserrat', sans-serif;
     font-size: 13pt;
-    margin-top: 2%;
+}
+
+.skills {
+    margin-top: 2%
 }
 
 .card {
@@ -46,6 +49,7 @@ html {
     margin-left: 30px;
     margin-right: 30px;
 }
+
 
 .tech {
     text-align: left;
