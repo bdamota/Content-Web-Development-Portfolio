@@ -9,8 +9,9 @@ html {
 }
 
 .mr-4 {
-    text-align: left;
+    text-align: justify;
     font-family: 'Montserrat', sans-serif;
+    font-size: 11.5pt;
 }
 
 .grid-container {
