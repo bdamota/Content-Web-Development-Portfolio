@@ -72,22 +72,22 @@
     $("#video12").attr("src", videoSrc12);
   })
 
-  var videoSrc12 = $("#modal13 video").attr("src");
+  var videoSrc13 = $("#modal13 video").attr("src");
   $("#modal13").on("hide.bs.modal", function(e) {
     // stop video
-    $("#video13").attr("src", videoSrc12);
+    $("#video13").attr("src", videoSrc13);
   })
 
-  var videoSrc12 = $("#modal14 video").attr("src");
+  var videoSrc14 = $("#modal14 video").attr("src");
   $("#modal14").on("hide.bs.modal", function(e) {
     // stop video
-    $("#video14").attr("src", videoSrc12);
+    $("#video14").attr("src", videoSrc14);
   })
 
-  var videoSrc12 = $("#modal15 video").attr("src");
+  var videoSrc15 = $("#modal15 video").attr("src");
   $("#modal15").on("hide.bs.modal", function(e) {
     // stop video
-    $("#video15").attr("src", videoSrc12);
+    $("#video15").attr("src", videoSrc15);
   })
 
 
