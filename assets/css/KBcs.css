@@ -1,16 +1,17 @@
-html {
+tml {
     background-image: url("");
 }
 
-.case {
-    display: block;
-}
 
 /* About Style Start*/
 .section-title {
     text-align: left;
-    margin-left: 5%;
-    margin-top: 5%;
+    margin-left: 6%;
+}
+
+.contents {
+    width: 800px;
+    height: 400px;
 }
 
 .grid-container {
@@ -19,26 +20,98 @@ html {
     margin-top: 1.3%;
 }
 
-.photo {
-   width:90%;
-   height: auto;
-   border-style: outset;
-}
-
 .about {
     margin-top: 2%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 6%;
+    margin-right: 6%;
     text-align: justify;
     font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+.ux {
+    font-size: 10pt;
+}
+
+.ux-title {
+    margin-bottom: -1%;
+}
+
+.research {
+    font-size: 12pt;
+    margin-bottom: 1.5%;
 }
 
 .a {
     color: rgb(255, 15, 167);
 }
 
+
+.case {
+    display: block;
+    margin-left: 5%;
+}
+
+.caseB {
+    display: block;
+    margin-left: 8%;
+}
+
+
+
+.persona {
+    height: 700px;
+    width: 800px;
+}
+
+.decision {
+    height: 400px;
+    width: 1075px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.user-story {
+    height: 600px;
+    width: 800px;
+}
+
+.sketch{
+    height: 400px;
+    width: 600px;
+   border-style: groove;
+}
+
+.MVP {
+    height: 600px;
+    width: 900px;
+    border-style: outset;
+}
+
+.lowfi {
+    height: 600px;
+    width: 800px;
+}
+
+.card-link {
+    font-weight: bold;
+    color: rgb(176, 78, 218);
+    font-size: 13pt;
+    margin-left: 45%;
+}
+
+.card-link:hover {
+    color: darkgray;
+ }
+
+ .back {
+     margin-left: 2%;
+     font-size: 10pt;
+ }
+
 /* End Nav Start*/
-.about-end {
+.case-end {
     margin-top: 5%;
 }
 
@@ -165,4 +238,3 @@ html {
         font-size: 6pt;
     }  
 }
- 
