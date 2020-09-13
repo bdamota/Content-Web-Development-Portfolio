@@ -58,6 +58,11 @@ tml {
     margin-left: 8%;
 }
 
+.caseC {
+    display: block;
+    margin-left: 11%;
+}
+
 
 .persona {
     height: 700px;
@@ -75,6 +80,10 @@ tml {
 .user-story {
     height: 600px;
     width: 800px;
+}
+
+.user2{
+    margin-top: 3%;
 }
 
 .sketch{
@@ -132,7 +141,12 @@ tml {
     .about {
         margin-top: 1.5%;
         font-size: 12pt;
-    }   
+    }  
+    
+    .contents {
+        margin-top: 1.5%;
+        font-size: 12pt;
+    }  
 
     .end-search {
         font-size: 12pt; 
@@ -157,6 +171,12 @@ tml {
     }
 
     .about {
+        margin-top: 2.5%;
+        margin-bottom: 3%;
+        font-size: 15pt;
+    }
+
+    .contents {
         margin-top: 2.5%;
         margin-bottom: 3%;
         font-size: 15pt;
@@ -191,7 +211,20 @@ tml {
         font-size: 15pt;
     }
 
+    .contents {
+        font-size: 15pt;
+    }
 
+    .persona {
+        height: 500px;
+        width: 700px;
+    }
+
+    .decision {
+        height: 400px;
+        width: 700px;
+    }
+    
     .end-search {
         font-size: 12pt; 
     }   
@@ -215,6 +248,33 @@ tml {
     .about {
         font-size: 11pt;
         margin-top: 3%;
+    }
+
+    .contents {
+        font-size: 11pt;
+        margin-top: 3%;
+    }
+
+    .persona {
+        height: 300px;
+        width: 400px;
+    }
+
+    .user-story {
+        height: 300px;
+    }
+
+    .decision {
+        height: 200px;
+        width: 800px;
+    }
+
+    .lowfi {
+        height: 300px;
+    }
+
+    .MVP {  
+        height: 300px;  
     }
 }
 
@@ -240,6 +300,30 @@ tml {
         margin-right: 16%;
         margin-top: 4%;
         font-size: 11pt;
+    }
+
+    .contents {
+        margin-right: 16%;
+        margin-top: 4%;
+        font-size: 11pt;
+    }
+
+    .user-story {
+        height: 300px;
+    }
+
+    .decision {
+        height: 200px;
+        width: 800px;
+    }
+
+    .lowfi {
+        height: 300px;
+    }
+
+
+    .MVP {  
+        height: 300px;  
     }
 
     .end-search {
