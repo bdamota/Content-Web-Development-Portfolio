@@ -220,6 +220,11 @@ tml {
         width: 700px;
     }
 
+    .storyboard {
+        height: 600px;
+        width: 1000px;
+    }
+
     .decision {
         height: 400px;
         width: 700px;
@@ -260,8 +265,9 @@ tml {
         width: 400px;
     }
 
-    .user-story {
-        height: 300px;
+    .storyboard {
+        height: 400px;
+        width: 700px;
     }
 
     .decision {
@@ -308,9 +314,11 @@ tml {
         font-size: 11pt;
     }
 
-    .user-story {
+    .storyboard {
         height: 300px;
+        width: 600px;
     }
+
 
     .decision {
         height: 200px;
