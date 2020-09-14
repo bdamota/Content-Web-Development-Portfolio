@@ -1,47 +1,4 @@
 
-html {
-    background-image: url("");
-}
-
-/* Contact Style Start */
-.section-title {
-    text-align: left;
-}
-
-.outro {
-    font-family: 'Montserrat', sans-serif;
-    text-align: justify;
-    margin-left: 10%;
-    margin-top: 5%;
-    margin-right: 10%;
-}
-
-.icon-list {
-    display: flex;
-    list-style-type:none;
-    margin-left: -1%;
-    margin-top: -2%;
-}
-
-
-/* End Nav Start*/
-.contact-end {
-    margin-top: 10%;
-}
-
-/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-@media screen and (max-width: 1024px) {
-    .outro {
-        margin-right: 10%;
-        margin-left: 10%;
-        font-size: 13pt;
-    }
-
-    .end-search {
-        font-size: 11pt; 
-    }
- }
-
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
     .hero-info {
@@ -148,3 +105,4 @@ html {
         font-size: 6pt;
     }
 }
+
