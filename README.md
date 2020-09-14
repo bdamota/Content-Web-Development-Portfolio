@@ -7,6 +7,7 @@ This is a project to highlight samples of Briana daMota's broadcast, digital and
 * HTML5
 * CSS3
 * JavaScript
+* jQuery
 * Bootstrap
 
 ## PREVIEW SHOT

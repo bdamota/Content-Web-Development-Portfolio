@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./assets/css/style.css">
-        <link rel="stylesheet" href="./assets/css/KBcs.css">
+        <link rel="stylesheet" href="./assets/css/MLcs.css">
         <title> Briana daMota | Web </title>
     </head>
     <body>
@@ -58,125 +58,112 @@
 
 
         <!---Case Study -->
-         <h2 class="section-title">KickBack!</h2>
+         <h2 class="section-title">MyLingual</h2>
          <div class="grid-container">
              <div class="grid-item intro">
                 <h6 class="about ux-title"><strong>Project Overview</strong></h6>
-                 <div class="about ux"> <strong>Team:</strong> Briana daMota, Alex Chigas, Rochelle Ruiz, Jackelin Salinas <br><br>
-                    <strong>Roles:</strong> UX Design Lead, Front-end Developer <br><br>
-                    <strong>Time Period:</strong> 2 Weeks (July 2020)<br><br>
-                    <strong>Design Tools:</strong> Figma, Pen & Paper<br><br>
-                    <strong>Technologies:</strong> HTML5, CSS3, Bootstrap, JavaScript, OMDB API, MovieDB API, Spoonacular API
+                 <div class="about ux"> 
+                     <strong>Team:</strong> Briana daMota, Alex Chigas, Rochelle Ruiz, Lauren Euge <br>
+                    <strong>Concept:</strong> Lauren Euge <br>
+                    <strong>My Roles:</strong> UX Design Lead, Writer, Front-end Developer, Project Manager <br>
+                    <strong>Time Period:</strong> 2 Weeks (August/September 2020)<br>
+                    <strong>Design Tools:</strong> Figma, Pen & Paper<br>
+                    <strong>Technologies:</strong> HTML5 / CSS3 / Bootstrap / JavaScript / Node / Express / MySQL / Handlebars / Sequelize / Bcrypt / Heroku
                  </div>
                  <div class="about ux">
                     <strong class="research">Contents</strong> <br>
-                    <p><a class="contents" href="KBcs.html#background">Background |</a> <a class="contents" href="KBcs.html#interviews">User Interviews | </a><a class="contents" href="KBcs.html#personas">User Personas |</a> <a class="contents" href="KBcs.html#problem"> Problem Statement |</a> <a class="contents"  href="KBcs.html#stories">User Story | </a> <br>
-                        <a class="contents" href="KBcs.html#decision">Decision Flow Diagram |</a> <a class="contents" href="KBcs.html#sketch">Paper Sketching |</a> <a class="contents" href="KBcs.html#rapid">Rapid Prototyping  | </a> <a class="contents"  href="KBcs.html#lowfi">Low-Fidelity Wireframe |</a>  <br>
-                        <a class="contents"  href="KBcs.html#iteration">User Testing Feedback |</a> <a class="contents"  href="KBcs.html#clickable">High-Fidelity Prototype |</a> <a class="contents"  href="KBcs.html#engineer">MVP  | </a>  <a class="contents"   href="KBcs.html#future">Retrospective & Future Development</a></p>
+                    <p><a class="contents" href="KBcs.html#background">Background |</a> <a class="contents" href="KBcs.html#interviews">User Interviews | </a><a class="contents" href="KBcs.html#personas">User Personas |</a> <a class="contents" href="KBcs.html#problem"> Problem Statement |</a> <a class="contents"  href="KBcs.html#stories">Storyboard | </a> <br>
+                        <a class="contents" href="KBcs.html#decision">Decision Flow Diagram |</a>  <a class="contents"  href="KBcs.html#lowfi">Low-Fidelity Wireframes |</a>  
+                        <a class="contents"  href="KBcs.html#iteration">User Testing Feedback |</a> <br> <a class="contents"  href="KBcs.html#clickable">High-Fidelity Prototype |</a> <a class="contents"  href="KBcs.html#engineer">MVP  | </a>  <a class="contents"   href="KBcs.html#future">Retrospective & Future Development</a></p>
                  </div>
                  <div class="about ux">
                     <strong class="research" id="background">Background</strong> <br>
-                   <p>In the wake of Covid-19, everyone is adjusting to the new normal. Social distancing requirements have forced people to drastically change their routines. Going out with friends for dinner and a movie has become an increasingly stressful activity. And there’s a greater need to find recipes to cook and movies to watch at home. Deciding what to eat and view can be frustrating and time-consuming in the best of times. During a pandemic... it’s overwhelming. </p>
-                    <p>What if there was a simple, easy to navigate application that took the work out of planning the perfect night in? </p>
-                    <p>Kickback! is a web-based app that randomly generates movie and recipe suggestions from the user’s choice of movie genre and cuisine type. A user visits the site, makes two simple decisions, and lets the app do the heavy lifting. Kickback! makes it easier to stay in, relax and enjoy quality time with loved ones.</p>
+                   <p>MyLingual is a web-based social network that connects people who are learning the same languages. Users can share and discover new language resources, while immersing themselves in a supportive, knowledge-filled community. <br><br>
+                      We decided on this project because a member of our group was learning a foreign language and was having trouble finding a place to connect with other student becuase of the quarantine. Many people in our class expressed a similar sentiment, so we designed an app to alleviate their difficulties. </p>
                  </div>
                  <div class="about ux">
                     <strong class="research">Research</strong> <br>
                     <strong class="research" id="interviews">User Interviews</strong> <br>
-                    <p>To best utilize our limited time we decided to interview classmates from our coding cohort. Our main goals for the user interviews were:</p>
+                    <p>We interviewed our classmates, who had experience using self-paced language learning applications. Our main goal for the user interviews was to:</p>
                     <ul>
-                        <li class="case">•	Gain insight into how the quarantine was affecting the user's daily routine.</li>
-                        <li class="caseB">o	How often did they go out before the stay-at-home orders?  </li>
-                        <li class="caseB">o  How likely were they to cook dinner and watch a movie at home pre-pandemic?</li>
-                        <li class="caseC">-  How has that changed during the pandemic?</li>
+                        <li class="case">•	Gain insight into how they used self-paced language learning apps.</li>
+                        <li class="caseB">o	 What made them choose language apps over online small group courses?  </li>
+                        <li class="caseB">o  How often did they use the language apps?</li>
+                        <li class="caseC">-  If using during the pandemic, how has their usage changed?</li>
+                        <li class="caseB">o  What are their pain points with the apps?</li>
+                         <li class="caseB">o  What features do they like about the apps?</li>
                     </ul>
+                    <p>The individuals we interviewed ranged from age 26-45; were single, married with children, single with children, and in relationships. Their professions ranged from student to audio engineer. All of the users we interviewed had successfully used language apps. This helped us in better understanding our user base and product goals. From the interviews, we found that:</p>
                     <ul>
-                        <li class="case">•  Understand how users were using apps to make daily decisions. </li>
-                        <li class="caseB">o  Were they using apps before the pandemic to make recipe and movie decisions? </li>
-                        <li class="caseC">-  If yes, what were their pain points while using the apps? </li>
-                        <li class="caseC">-  If yes, what features did they like about the apps?  </li>
-                        <li class="caseC">-  If no, why didn't they use apps?  </li>
-                    </ul>
-                    <p>The individuals we interviewed ranged from age 21-49; were single, married with children and in relationships. Their professions were student, vet tech, athletic coach, web developer, and teaching assistant. With our limited sample, we captured a wide range of ages, life stages, and careers. This helped us in better understanding our broad user base. The information gathered from the interviews revealed some common themes.</p>
-                    <ul>
-                        <li class="case">•  All of the users had been “moderately” to “very” social outside of their homes pre-pandemic. </li>
-                        <li class="case">•  40% of the users were likely to cook at home at least twice a week pre-pandemic. 80% of the users were likely to cook at home at least twice a week during the pandemic.</li>
-                        <li class="case">•  All of the users were likely to watch a movie at home at least once a week both pre-pandemic and during the pandemic. </li>
-                        <li class="case">•  40% of users were using apps to find recipes pre-pandemic. 60% of users were using apps to find recipes during the pandemic.</li>
-                        <li class="case">•  All users used streaming apps to find movies to watch both pre-pandemic and during the pandemic. </li>
-                        <li class="case">•  There was a general sentiment that there were too many choices returned in searches. </li>
-                        <li class="case">•  Users who used recipe apps enjoyed the ability to search by cuisine type, ingredients and cooking difficulty level.  </li>
-                        <li class="case"> •	Users who used recipe apps found that they couldn't always save the recipes, which would allow them to more easily create grocery lists and cook the dish more than once.  </li>
+                        <li class="case">•  All of the users chose language apps over small classes because of time and money. </li>
+                        <li class="case">•  All of the users used an app at least three times a week pre-pandemic.</li>
+                        <li class="case">•  Of the users utilizing a langauge app during the pandemic, 50% increased their use to daily.</li>
+                        <li class="case">•  All of the users would like more human-to-human interaction within the apps. </li>
+                        <li class="case">•  All of the users liked that they could learn at their own pace using the apps.</li>
+                        <li class="case">•  All of the users liked when the apps were free.</li>
                     </ul>
                  </div>
                  <div class="about ux">
                      <strong class="research" id="personas">User Personas</strong><br>
                      <p>After the interviews were conducted, I created two user personas to visually represent the information we gathered. These tangible representations reminded us of our user's needs and goals. </p><br>
                      <div>
-                        <img class="persona img-fluid  mx-auto d-block" src="./assets/images/user1Kickback.png" alt="user persona" >
+                        <img class="persona img-fluid  mx-auto d-block" src="./assets/images/Mylingual user 1.png" alt="user persona" >
                      </div>
-                     <div class="user2"> <img class="persona img-fluid  mx-auto d-block" src="./assets/images/user2Kickback.png" alt="user persona" >
+                     <div class="user2"> <img class="persona img-fluid  mx-auto d-block" src="./assets/images/MyLingual User 2.png" alt="user persona" >
                     </div>
                  </div> <br>
                  <div class="about ux">
                      <strong class="research" id="problem">Problem Statement</strong><br>
-                     <p>Recipe and streaming apps are designed to make searching for dishes and movies easier.  After our initial research, we found that this isn’t always the case. Often streaming apps provide the users with too many choices and recipe apps don’t have enough features to fully satisfy the consumer. With this knowledge, we set out to develop a single application that improved upon both recipe and streaming apps. </p>
+                     <p>Based on our research and personal experience, we found that language learning apps leave something to be desired when it comes to group and human-to-human learning opportunities. We decided to create an application that could be used to exclusively learn languages with other people. </p>
                  </div>
                  <div class="about ux">
-                    <strong class="research" id="stories">User Story</strong><br>
-                    <p>To illustrate the expectations of a user who visits KickBack!, I created a simple user story. </p><br> 
-                    <img class="user-story img-fluid  mx-auto d-block" src="./assets/images/User Story KickBack .png" alt="user story" >
+                    <strong class="research" id="stories">Storyboard</strong><br>
+                    <p>To further illustrate our user and their pain points, I created a storyboard. It captured the frustrations of Sharon, a lifelong learner, who wants to find other French students to interact with during her language studies. </p><br> 
+                    <img class="storyboard img-fluid  mx-auto d-block" src="./assets/images/MyLingual Storyboard.png" alt="storyboard" >
                  </div><br>
                  <div class="about ux">
                     <strong class="research" id="decision">Decision Flow Diagram</strong><br>
-                    <p>We came up with a decision flow diagram that addressed the problem statement and provided a solution that would help ease pain-points.</p><br>
-                    <img class="decision img-fluid  mx-auto d-block" src="./assets/images/DecisionKickback.png" alt="decision flow diagram" >
+                    <p>We designed a decision flow diagram that illustrated the choices the user had when visiting the site. Once signed in, the user is automatically directed to their dashboard. All initial decisions are made from that page.</p><br>
+                    <img class="decision img-fluid  mx-auto d-block" src="./assets/images/Decision Mylingual.jpg" alt="decision flow diagram" >
                  </div><br>
                  <div class="about ux">
-                    <strong class="research" id="sketch">Paper Sketching</strong><br>
-                    <p>Each group member created a paper sketch that demonstrated their idea of the application. My sketch included  "home" and "saved" screens.</p><br>
-                    <img class="sketch img-fluid  mx-auto d-block" src="./assets/images/Kickback Sketch.jpg" alt="wireframe sketch"><br>
-                 </div><br>
-                 <div class="about ux">
-                    <strong class="research" id="rapid">Rapid Prototyping, Usability Testing & Feedback</strong><br>
-                    <p>We created and tested a rapid prototype based on the sketches. We found out about a particular UI improvement at this stage, which was to add a button for the users to click after they made their cuisine and genre choices. This also turned out to be necessary for the functionality of the application to work properly. Additionally, after researching the intended recipe API, we found it would be difficult to anticipate the length of each recipe. Instead of using a scroll feature to account for the overflow text, we chose to have a photo of the final dish and allow the user to click-through to the recipe's original site. </p>
-                 </div>
-                 <div class="about ux">
-                    <strong class="research" id="lowfi">Low-Fidelity Wireframe</strong><br>
-                    <p>Using our decision flow diagram, wireframe sketches, and feedback from our users, I created an initial set of low-fidelity wireframes in Figma. The below wireframes demonstrate a user's experience with KickBack! First, they arrive at the site and choose a cuisine type and movie genre from dropdown menus. After hitting the KickBack! button, they are shown one movie and one recipe suggestion. To change their recipe and movie choice, or to save the recipe and movie they click the related buttons. Once satisfied with their choices, they can click-through to view the recipe. At any point, the user can view their previously saved movies and recipes.</p><br>
-                    <img class="lowfi img-fluid  mx-auto d-block" src="./assets/images/Low Fi Kickback.png" alt="low-fi wireframe" >
+                    <strong class="research" id="lowfi">Low-Fidelity Wireframes</strong><br>
+                    <p>Due to the scope of the project and the limited amount of time, we chose to go straight into creating low-fidelity wireframes. I created the below wireframes to demonstrate each page that would need to be developed. </p><br>
+                    <img class="lowfi img-fluid  mx-auto d-block" src="./assets/images/Low Fi Mylingual.png" alt="low-fi wireframe" >
                  </div><br>
                  <div class="about ux">
                     <strong class="research" id="iteration">User Testing Feedback & Design Iteration </strong><br>
-                    <p>After testing and discussing the wireframes with our classmates, they suggested we add some instructions for how to maneuver the site. This would lead to a better and easier user experience. </p>
+                    <p>The testing of the wireframes came as the back-end models were being established. The back-end developers asked us to redesign the photo uploading function, as it would add more work than they could complete in the given timeframe. The solution for this came from our users, who suggested that we use avatars instead of photos. This would make them feel comfortable allowing their children to use the site. They also noted that a separate page for sign in and sign up might be uneccessary. Less pages to navigate to get signed up/in would be a better experience. </p>
                  </div>
+                 <!-- <div class="about ux">
+                    <strong class="research" id="stories">Style-Guide</strong><br>
+                    <p>To illustrate the expectations of a user who visits KickBack!, I created a simple user story. </p><br> 
+                    <img class="user-story img-fluid  mx-auto d-block" src="" alt="storyboard" >
+                 </div><br> -->
                  <div class="about ux">
                     <strong class="research" id="clickable">High-Fidelity Clickable Prototype </strong><br>
-                    <p>I incorporated the user feedback into a high-fidelity design that included additional text, final fonts and color pallet. I also took the time to create a logline and find royalty-free photos that conveyed the overall fun, family-friendly tone of our site. At this point, we decided which features to include in our MVP. We chose the following features, which are reflected in the clickable prototype: </p>
-                    <ol>
-                        <li class="case">•  Allow users to choose cuisine type and movie genre.</li>
-                        <li class="case">•  Allow both movie and recipe suggestions to be changed and saved.</li>
-                        <li class="case">•  Give users the ability to click-through to see the recipes on their original site. </li>
-                    </ol>
-                    <a class="proto" href="https://www.figma.com/proto/zqUy5I1JWQ8cv36Fqa9Tme/KickBack?node-id=49%3A10&scaling=contain" target="_blank">See Prototype</a>
+                    <p>I incorporated the user and developer feedback into a high-fidelity design that included the final copy, fonts and color pallet. A group member created the custom logo. This was the final iteration before development. </p>
+                    <a class="proto" href="https://www.figma.com/proto/poDd7eDiu8CoKISV60l1TF/MyLingual-Low-Fi-Wireframe?node-id=13%3A1142&scaling=min-zoom" target="_blank">See Prototype</a>
                  </div>
                  <div class="about ux">
                     <strong class="research" id="engineer"> Engineering & MVP </strong><br>
-                    <p>With the research and prototyping, we were able to confidently build the application. The development process went relatively smoothly because we understood the limitations of the APIs we chose and created a design to accomodate. The only modification of the clickable prototype is that the saved movies and recipes show up on the homepage. There was not enough time to develop the "saved" page. Regardless, our MVP exceeded our development expectations. </p> <br>
-                    <a href="https://achigas.github.io/KickBack/" target="_blank" class="card-link text-center">Visit Site</a><br><br>
-                    <img class="MVP img-fluid  mx-auto d-block" src="./assets/images/kickback.png" alt="kickback homepage"><br>
+                    <p>As a full-stack project, this idea had a much larger scope than anything we had done up to that point. There was much more preparation that needed to be done both on the front and back ends to ensure that we could connect the application successfully. A few hiccups notwithstanding, we developed our MVP almost entirely to our specifications.  </p> <br>
+                    <a href="https://fathomless-reef-91284.herokuapp.com/" target="_blank" class="card-link text-center">Visit Site</a><br><br>
+                    <img class="MVP img-fluid  mx-auto d-block" src="./assets/images/Mylingual.png" alt="mylingual homepage"><br>
                  </div><br>
                  <div class="about ux">
                     <strong class="research" id="future">Retrospective & Future Development </strong><br>
-                    <p>Kickback! fills a unique opening in the market for consumers who are figuring out how to navigate the new realities of social distancing. It addresses the need consumers have to make quick decisions about recipes and movies on a daily basis. Through future development, KickBack! will allow for brands to serve targeted ads to users. Future development plans include:</p>
+                    <p>MyLingual is unique in that it is designed to only be a social network for language learners. The aim is for people to learn with each other, not just through individual lessons. We successfully created a product that provided a solution to our problem statement. <br><br>
+                       
+                    I assumed multiple roles for this project, including UX Design Lead, Writer, Front-end Developer and Project Manager. As Project Manager, I created a Google Doc that used the Kanban Method to keep us on track throughout the development process, scheduled production check-ins, prioritized our daily needs, and created the deck for our class presentation. <br><br>
+                        
+                       We were all very proud of the final product. Moving forward, we would like to continue to develop MyLingual. Future development plans include:</p>
                     <ol>
-                        <li class="case">•  Enhance user experience by adding additional API to find which streaming services host the
-                            movie suggestions.</li>
-                        <li class="case">•  Allow users to search by movie rating and recipe difficulty.</li>
-                        <li class="case">•  Add feature to allow users to save recipe ingredients.</li>
-                        <li class="case">•  Develop additional screen that shows saved movies, recipes, and ingredients. Design navbar to reflect home and saved pages. </li>
-                        <li class="case">•  Scale app by adding delivery services. </li>
-                        <li class="case">•  Make app sponsorable by designing capability to serve ads (video and banner).</li>
+                        <li class="case">•   Allow users to add other users to a friends list in dashboard.</li>
+                        <li class="case">•   Add a 1-1 chat feature for users to talk to each other.</li>
+                        <li class="case">•   Add video hosting capabilities.</li>
+                        <li class="case">•   Add a translation feature. </li>
+                        <li class="case">•   Add the option for organizations to add their class materials. </li>
                     </ol>
                  </div><br> <br>
                  <a class="back" href="webwork.html#web-dev">&larr; Back to Portfolio</a>
