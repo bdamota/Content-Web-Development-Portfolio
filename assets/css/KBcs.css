@@ -1,0 +1,417 @@
+/* Apply to All pages */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    image-rendering: auto;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-image: url("../images/home-page-image.jpg");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center center; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+/* Apply styles to <header> of all pages */
+li {
+    display: inline;
+    padding: 10px;
+}
+
+a { 
+    color: inherit;
+    font-family: 'Montserrat', sans-serif;
+ }
+
+a:hover { 
+    color: inherit; 
+} 
+  
+.dropdown {
+    display: inline-block;
+}
+
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10pt;
+    background-color: white;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left: 55%;
+    right: 20%;
+    margin-top: 0%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    transform: translateX(-50%);
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+    text-decoration: none;
+}
+
+.icons:hover {
+    opacity: .4;
+}
+
+.icons img {
+    width: 15px; 
+    height: 15px;
+}
+
+/* Apply to Home Page Only */
+.hero-info-home {
+    max-width: 18.5%;
+    height:auto;
+    margin-left: 4%;
+    margin-top: 1.5%;
+}
+
+.navbar-home {
+    margin-top: 1.6%;
+    margin-left: 1.5%;
+}    
+  
+.text-home {
+    text-decoration: none;
+    font-family:  'Montserrat', sans-serif;
+    font-size: 13pt;
+    font-weight: normal;
+    color: inherit;
+}
+
+.text-home:hover {
+   opacity: .5;
+}
+
+.icons-home img {
+    width: 15px; 
+    height: 15px;
+}
+
+.icons-home:hover {
+    opacity: .5
+}
+
+/* Hero Style Start for All Pages */
+.hero-info {
+    max-width: 18.5%;
+    height:auto;
+    margin-left: 4%;
+    
+}
+
+/* Apply to body of all pages */
+.section-title {
+    font-family:  'Montserrat', sans-serif;
+    text-align: right;
+    font-weight: bold;
+    font-size: 16pt;
+    margin-right: 4%;
+    margin-bottom: -1%;
+    margin-top: 2.5%;
+}
+
+/*Apply to Footer of All Pages */
+footer {
+    display: flex;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright {
+    font-size: 8pt;
+}
+
+.copyright-homepage {
+    color: white;
+    margin-top: 45%;
+}
+
+/* End Nav All Pages*/
+.photo-end {
+    margin-top: 1%;
+}
+
+.travel-end {
+    margin-top: 4%;
+}
+
+.carousel-end {
+    margin-top: 5%;
+}
+
+.endbar {
+    display: flex;
+    list-style: none;
+    align-items: left;
+    justify-content: center;
+}
+
+.end-search {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11pt; 
+}
+
+.end-search:hover {
+    color: black;
+}
+
+
+/* MEDIA QUERY FOR SMALLER IPAD PRO SCREENS AND SMALLER */
+@media screen and (max-width: 1024px) { 
+    .hero-info-home {
+        max-width: 25%;
+        height:auto;
+        margin-left: 4%;
+        margin-top: 1.5%;  
+    }
+
+    .hero-info {
+        max-width: 25%;
+        height:auto;
+        margin-left: 4%;
+        
+    }
+
+    .navbar-home {
+        margin-top:2%;
+        margin-left: 2%;
+    } 
+     
+    .text-home {
+     font-size: 12pt;
+    }
+
+    .icons {
+        padding: 0px;
+    }
+    .icons img {
+        width: 16px; 
+        height: 16px;
+    }
+
+    .section-title {
+        font-size: 18pt;
+        
+    }
+
+   .end-search {
+    font-size: 2.00vw;
+   }
+
+   .copyright {
+    font-size: 1.20vw;
+}
+}
+
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    .hero-info-home {
+        max-width: 25%;
+        height:auto;
+        margin-left: 4%;
+        margin-top: 1.75%;  
+    }
+
+    .hero-info {
+        max-width: 35%;
+        height:auto;
+        margin-left: 4%;
+        
+    }
+
+    .navbar-home {
+        margin-top:2%;
+        margin-left: 2%;
+    } 
+     
+    .text-home {
+     font-size: 12pt;
+    }
+
+    .icons {
+        padding: 0px;
+    }
+   
+
+    .section-title {
+        font-size: 20pt;
+        
+    }
+
+   .end-search {
+    font-size: 6pt;
+   }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    .hero-info-home {
+        max-width: 28%;
+        height:auto;
+        margin-left: 4%;
+        margin-top: 2.5%;  
+    }
+
+    .hero-info {
+        max-width: 35%;
+        height:auto;
+        margin-left: 4%;
+        
+    }
+
+    .navbar-home {
+        margin-top:2.5%;
+        margin-left: 3%;
+    } 
+     
+    .text-home {
+     font-size: 12pt;
+    }
+
+    .hero-info {
+        max-width: 40%;
+        height:auto;
+        margin-left: 4%;
+        
+    }
+
+    .icons {
+        padding: 0px;
+    }
+    .icons img {
+        width: 18px; 
+        height: 18px;
+    }
+
+    .section-title {
+        font-size: 20pt;
+        
+    }
+
+   .end-search {
+    font-size: 2.50vw;
+   }
+
+   .copyright {
+    font-size: 2.20vw;
+}
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    .hero-info-home {
+        max-width: 28%;
+        height:auto;
+        margin-left: 4%;
+        margin-top: 3%;  
+    }
+
+    .hero-info {
+        max-width: 35%;
+        height:auto;
+        margin-left: 4%;
+        
+    }
+
+    .icons-home img, .icons img {
+        display: none;
+    }
+
+
+    .navbar-home {
+        margin-top:3.8%;
+        margin-left: 3%;
+    } 
+     
+    .text-home {
+     font-size: 6pt;
+    }
+
+    a {
+        font-size: 6pt;
+    } 
+
+
+    .section-title {
+        font-size: 12pt;
+        
+    }
+
+   .end-search {
+    font-size:  6pt;
+   }
+
+   .copyright {
+    font-size: 6pt;
+}
+
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 375px) {
+    .hero-info-home {
+        max-width: 30%;
+        height:auto;
+        margin-left: 4%;
+        margin-top: 5%;  
+    }
+
+    .navbar-home {
+        margin-top: 5%;
+        margin-left: 5%;
+    } 
+     
+    .text-home {
+     font-size: 6pt;
+    }
+
+    a {
+        font-size: 6pt;
+    }
+
+    .icons-home img, .icons img {
+        display: none;
+    }
+
+    .hero-info {
+        max-width: 43%;
+        height:auto;
+        margin-left: 4%;
+        
+    }
+
+    .section-title {
+        font-size: 11pt;
+        
+    }
+
+   .end-search {
+    font-size: 6pt;
+   }
+
+   .copyright {
+    font-size: 2.20vw;
+   }
+}
