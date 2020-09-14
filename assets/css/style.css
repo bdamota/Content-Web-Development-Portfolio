@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+img {
+    image-rendering: auto;
+}
+
 html {
     scroll-behavior: smooth;
     background-image: url("../images/home-page-image.jpg");
