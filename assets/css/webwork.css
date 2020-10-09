@@ -21,66 +21,24 @@ html {
 }
 
 
-.my-services .col-md-6 {
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-.service-item {
-    margin-bottom: 10px;
-    padding: 50px;
-    background-color: rgb(31, 91, 72);
-    transition: all 0.5s;
-    color: white;
-}
-
-.service-item h4 {
-    transition: all 0.5s;
-    font-size: 16pt;
-}
-
-.service-item p {
-    transition: all 0.5s;
-}
-
-.service-item:hover {
-    background-color: white;
-}
-
-.service-item:hover h4 {
-    color: #1e1e1e;
-}
-
-.service-item:hover p {
-    color: #4a4a4a;
-}
-
-.service-item .service-icon {
-    width: 50px;
+.skill-img {
     height: 50px;
-    display: inline-block;
-    margin-bottom: 30px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    transition: all 0.4s;
+    width: 50px;
+    margin-bottom: 2%;
 }
 
-.service-item .first-service-icon {
-    background-image: url(../images/third-white-icon.png);
-}
+.tm-bg-color-primary { 
+    background-color: #7ba2fe;
+ }
 
-.service-item:hover .first-service-icon {
-    background-image: url(../images/third-main-icon.png);
-}
+ .tm-bg-color-secondary { 
+    background-color: #effe7b;
+ }
 
-.service-item .second-service-icon {
-    background-image: url(../images/first-white-icon.png);
-}
-
-.service-item:hover .second-service-icon {
-    background-image: url(../images/first-main-icon.png);
-}
-
+.tm-text-color-white { 
+    color:black; 
+    font-weight: normal; 
+ }
 
 .card {
     height: 1100px;
